@@ -150,3 +150,8 @@ Utilities used in test scripts.
 array which are larger than given criterion and return its index.
 - smallElementIndex.mpl: for array of numbers, find numbers in the
 array which are smaller than given criterion and return its index.
+
+-----
+## Tables 4--9
+
+Under preparation.
