@@ -37,7 +37,7 @@ All files are stored under directory "test2".
 ### Test data for Table 2
 
 | Test no. | Test polynomial | Test polynomial generator |  Test script and log | Saved test results (GPGCD\|STLN\|UVGCD) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Ex. 1 | testpol-10-10-5-0.1-02.mpl | gentestpol-10-10-5-0.1-02.mw | merom-real/test-real-10-10-5-0.1-02.mw | merom-real/testdata-10-10-5-0.1-02-(gpgcd\|uvgcd).mpl, testdata-10-10-5-0.1-02-stln-01.mpl (for STLN) |
 | Ex. 2 | testpol-20-20-10-0.1-02.mpl | gentestpol-20-20-10-0.1-02.mw | merom-real/test-real-20-20-10-0.1-02.mw | merom-real/testdata-20-20-10-0.1-02-(gpgcd\|stln\|uvgcd).mpl |
 | Ex. 3 | testpol-30-30-15-0.1-02.mpl | gentestpol-30-30-15-0.1-02.mw | merom-real/test-real-30-30-15-0.1-02.mw | merom-real/testdata-30-30-15-0.1-02-(gpgcd\|stln\|uvgcd).mpl |
