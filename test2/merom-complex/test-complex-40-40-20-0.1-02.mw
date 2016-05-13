@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"><Zoom percentage="125"/></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="800" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L184" drawlabel="true">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"><Font executable="true">TCS</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20inserted%20missing%20semicolon%20at%20end%20of%20statement" hyperlink="true"><Font style="HyperlinkWarning">Warning, inserted missing semicolon at end of statement</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSRUQ1NHNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L253" drawlabel="true" redirect-target="L185">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"><Font executable="true"> - SNC 2011 submission:
+Experiment 2
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L276" drawlabel="true" redirect-target="L254">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"><Font executable="true">Degree 40, complex coefficients
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L281" drawlabel="true" redirect-target="L277">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L283" drawlabel="true" redirect-target="L277">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L285" drawlabel="true" redirect-target="L277">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L287" drawlabel="true" redirect-target="L277">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L183" drawlabel="true" redirect-target="L277">
+<Input>
+<Text-field style="Title" executable="true" layout="Title"><Font executable="true">Test polynomials: Example 2</Font></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L293" drawlabel="true">
+<Input>
+<Text-field style="Author" layout="Author">Akira Terui</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L289" drawlabel="true">
+<Input>
+<Text-field style="Author" layout="Author">March 22, 2012</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Initial setup</Text-field></Title>
+<Group labelreference="L220" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L219" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Digits := 15:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L221" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../testpol-complex-40-40-20-0.1-02.mpl&quot;:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">GPGCD</Text-field></Title>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Setup</Text-field></Title>
+<Group labelreference="L187" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../gpgcd-complex.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L189" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">infolevel[gpgcd_complex] := 1:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L188" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../testscript-gpgcd.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L201" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../largeElementIndex.mpl&quot;:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Benchmark</Text-field></Title>
+<Group labelreference="L194" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">comptime, perturb, perturb2, gcds, pols, cofactors, numite := test_gpgcd_complex(f, g, x, 20, 1e-8, 200, 1, 100):</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Degree of common divisor: 20
+Case 1:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 2:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 3:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5
+Case 4:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 7
+Case 5:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 6:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 7:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 8:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 9:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 10:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 11:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 12:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 13:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 14:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 15:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 16:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 17:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 18:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 19:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 20:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 21:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 22:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 23:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 24:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 25:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 26:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 27:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 28:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 29:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 30:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 31:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 32:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 33:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 34:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 35:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 36:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 37:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 38:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5
+Case 39:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 40:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 41:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 42:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 43:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 44:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 45:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 46:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 47:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 48:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 49:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 50:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 51:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 52:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 53:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 54:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 55:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 56:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 57:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 58:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 59:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 60:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 61:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 62:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 63:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 64:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 65:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 66:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 67:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 68:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 69:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 70:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 71:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 72:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 73:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 74:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 75:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 76:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 77:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5
+Case 78:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 79:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 80:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 81:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 82:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 83:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 84:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 85:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 86:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 87:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 88:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 89:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 90:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5
+Case 91:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 6
+Case 92:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 93:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 94:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 95:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 5
+Case 96:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 97:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4
+Case 98:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 99:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 100:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_complex: converges at iteration 4</Text-field>
+</Output>
+</Group>
+<Group labelreference="L195" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">save comptime, perturb, perturb2, gcds, pols, cofactors, numite, &quot;./testdata-complex-40-40-20-0.1-02-gpgcd.mpl&quot;;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L196" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;./testdata-complex-40-40-20-0.1-02-gpgcd.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">indexset := {$op(2, perturb)}; # indexset consists of indices of all test cases</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpaW5kZXhzZXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNmZ3LUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GVTYkUSIyRidGOUZYLUZVNiRRIjNGJ0Y5RlgtRlU2JFEiNEYnRjlGWC1GVTYkUSI1RidGOUZYLUZVNiRRIjZGJ0Y5RlgtRlU2JFEiN0YnRjlGWC1GVTYkUSI4RidGOUZYLUZVNiRRIjlGJ0Y5RlgtRlU2JFEjMTBGJ0Y5RlgtRlU2JFEjMTFGJ0Y5RlgtRlU2JFEjMTJGJ0Y5RlgtRlU2JFEjMTNGJ0Y5RlgtRlU2JFEjMTRGJ0Y5RlgtRlU2JFEjMTVGJ0Y5RlgtRlU2JFEjMTZGJ0Y5RlgtRlU2JFEjMTdGJ0Y5RlgtRlU2JFEjMThGJ0Y5RlgtRlU2JFEjMTlGJ0Y5RlgtRlU2JFEjMjBGJ0Y5RlgtRlU2JFEjMjFGJ0Y5RlgtRlU2JFEjMjJGJ0Y5RlgtRlU2JFEjMjNGJ0Y5RlgtRlU2JFEjMjRGJ0Y5RlgtRlU2JFEjMjVGJ0Y5RlgtRlU2JFEjMjZGJ0Y5RlgtRlU2JFEjMjdGJ0Y5RlgtRlU2JFEjMjhGJ0Y5RlgtRlU2JFEjMjlGJ0Y5RlgtRlU2JFEjMzBGJ0Y5RlgtRlU2JFEjMzFGJ0Y5RlgtRlU2JFEjMzJGJ0Y5RlgtRlU2JFEjMzNGJ0Y5RlgtRlU2JFEjMzRGJ0Y5RlgtRlU2JFEjMzVGJ0Y5RlgtRlU2JFEjMzZGJ0Y5RlgtRlU2JFEjMzdGJ0Y5RlgtRlU2JFEjMzhGJ0Y5RlgtRlU2JFEjMzlGJ0Y5RlgtRlU2JFEjNDBGJ0Y5RlgtRlU2JFEjNDFGJ0Y5RlgtRlU2JFEjNDJGJ0Y5RlgtRlU2JFEjNDNGJ0Y5RlgtRlU2JFEjNDRGJ0Y5RlgtRlU2JFEjNDVGJ0Y5RlgtRlU2JFEjNDZGJ0Y5RlgtRlU2JFEjNDdGJ0Y5RlgtRlU2JFEjNDhGJ0Y5RlgtRlU2JFEjNDlGJ0Y5RlgtRlU2JFEjNTBGJ0Y5RlgtRlU2JFEjNTFGJ0Y5RlgtRlU2JFEjNTJGJ0Y5RlgtRlU2JFEjNTNGJ0Y5RlgtRlU2JFEjNTRGJ0Y5RlgtRlU2JFEjNTVGJ0Y5RlgtRlU2JFEjNTZGJ0Y5RlgtRlU2JFEjNTdGJ0Y5RlgtRlU2JFEjNThGJ0Y5RlgtRlU2JFEjNTlGJ0Y5RlgtRlU2JFEjNjBGJ0Y5RlgtRlU2JFEjNjFGJ0Y5RlgtRlU2JFEjNjJGJ0Y5RlgtRlU2JFEjNjNGJ0Y5RlgtRlU2JFEjNjRGJ0Y5RlgtRlU2JFEjNjVGJ0Y5RlgtRlU2JFEjNjZGJ0Y5RlgtRlU2JFEjNjdGJ0Y5RlgtRlU2JFEjNjhGJ0Y5RlgtRlU2JFEjNjlGJ0Y5RlgtRlU2JFEjNzBGJ0Y5RlgtRlU2JFEjNzFGJ0Y5RlgtRlU2JFEjNzJGJ0Y5RlgtRlU2JFEjNzNGJ0Y5RlgtRlU2JFEjNzRGJ0Y5RlgtRlU2JFEjNzVGJ0Y5RlgtRlU2JFEjNzZGJ0Y5RlgtRlU2JFEjNzdGJ0Y5RlgtRlU2JFEjNzhGJ0Y5RlgtRlU2JFEjNzlGJ0Y5RlgtRlU2JFEjODBGJ0Y5RlgtRlU2JFEjODFGJ0Y5RlgtRlU2JFEjODJGJ0Y5RlgtRlU2JFEjODNGJ0Y5RlgtRlU2JFEjODRGJ0Y5RlgtRlU2JFEjODVGJ0Y5RlgtRlU2JFEjODZGJ0Y5RlgtRlU2JFEjODdGJ0Y5RlgtRlU2JFEjODhGJ0Y5RlgtRlU2JFEjODlGJ0Y5RlgtRlU2JFEjOTBGJ0Y5RlgtRlU2JFEjOTFGJ0Y5RlgtRlU2JFEjOTJGJ0Y5RlgtRlU2JFEjOTNGJ0Y5RlgtRlU2JFEjOTRGJ0Y5RlgtRlU2JFEjOTVGJ0Y5RlgtRlU2JFEjOTZGJ0Y5RlgtRlU2JFEjOTdGJ0Y5RlgtRlU2JFEjOThGJ0Y5RlgtRlU2JFEjOTlGJ0Y5RlgtRlU2JFEkMTAwRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjkvJSVvcGVuR1EifGZyRicvJSZjbG9zZUdRInxockYnRmNhbEZmYWxGOQ==">PGBxIiIiIiIjIiIkIiIlIiImIiInIiIoIiIpIiIqIiM1IiM2IiM3IiM4IiM5IiM6IiM7IiM8IiM9IiM+IiM/IiNAIiNBIiNCIiNDIiNEIiNFIiNGIiNHIiNIIiNJIiNKIiNLIiNMIiNNIiNOIiNPIiNQIiNRIiNSIiNTIiNUIiNVIiNWIiNXIiNYIiNZIiNaIiNbIiNcIiNdIiNeIiNfIiNgIiNhIiNiIiNjIiNkIiNlIiNmIiNnIiNoIiNpIiNqIiNrIiNsIiNtIiNuIiNvIiNwIiNxIiNyIiNzIiN0IiN1IiN2IiN3IiN4IiN5IiN6IiMhKSIjIikiIyMpIiMkKSIjJSkiIyYpIiMnKSIjKCkiIykpIiMqKSIjISoiIyIqIiMjKiIjJCoiIyUqIiMmKiIjJyoiIygqIiMpKiIjKioiJCsi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L203" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(comptime[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKyspKVsmISM6</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L273" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Statistics:-Variance(comptime);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFE0MC4wMDQzNTUwNzYzNjM2MzYzNkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">XTNGNzFENkEwRThEQUJBQzg=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L204" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">1.0*add(numite[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKysrOCUhIzk=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L205" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwQDo4QDlbaCchIzs=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L206" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb2[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwVixFdnBDUyUhIzw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L223" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">arrayLargeElementIndex (perturb, 1.0);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">PCI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L222" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">indexset2 := {$op(2, perturb)} minus arrayLargeElementIndex (perturb, 1.0); 
+# indexset2 consists of indices excluding arrayLargeElementIndex in the above</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEqaW5kZXhzZXQyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzZmdy1JI21uR0YkNiRRIjFGJ0Y5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRlU2JFEiMkYnRjlGWC1GVTYkUSIzRidGOUZYLUZVNiRRIjRGJ0Y5RlgtRlU2JFEiNUYnRjlGWC1GVTYkUSI2RidGOUZYLUZVNiRRIjdGJ0Y5RlgtRlU2JFEiOEYnRjlGWC1GVTYkUSI5RidGOUZYLUZVNiRRIzEwRidGOUZYLUZVNiRRIzExRidGOUZYLUZVNiRRIzEyRidGOUZYLUZVNiRRIzEzRidGOUZYLUZVNiRRIzE0RidGOUZYLUZVNiRRIzE1RidGOUZYLUZVNiRRIzE2RidGOUZYLUZVNiRRIzE3RidGOUZYLUZVNiRRIzE4RidGOUZYLUZVNiRRIzE5RidGOUZYLUZVNiRRIzIwRidGOUZYLUZVNiRRIzIxRidGOUZYLUZVNiRRIzIyRidGOUZYLUZVNiRRIzIzRidGOUZYLUZVNiRRIzI0RidGOUZYLUZVNiRRIzI1RidGOUZYLUZVNiRRIzI2RidGOUZYLUZVNiRRIzI3RidGOUZYLUZVNiRRIzI4RidGOUZYLUZVNiRRIzI5RidGOUZYLUZVNiRRIzMwRidGOUZYLUZVNiRRIzMxRidGOUZYLUZVNiRRIzMyRidGOUZYLUZVNiRRIzMzRidGOUZYLUZVNiRRIzM0RidGOUZYLUZVNiRRIzM1RidGOUZYLUZVNiRRIzM2RidGOUZYLUZVNiRRIzM3RidGOUZYLUZVNiRRIzM4RidGOUZYLUZVNiRRIzM5RidGOUZYLUZVNiRRIzQwRidGOUZYLUZVNiRRIzQxRidGOUZYLUZVNiRRIzQyRidGOUZYLUZVNiRRIzQzRidGOUZYLUZVNiRRIzQ0RidGOUZYLUZVNiRRIzQ1RidGOUZYLUZVNiRRIzQ2RidGOUZYLUZVNiRRIzQ3RidGOUZYLUZVNiRRIzQ4RidGOUZYLUZVNiRRIzQ5RidGOUZYLUZVNiRRIzUwRidGOUZYLUZVNiRRIzUxRidGOUZYLUZVNiRRIzUyRidGOUZYLUZVNiRRIzUzRidGOUZYLUZVNiRRIzU0RidGOUZYLUZVNiRRIzU1RidGOUZYLUZVNiRRIzU2RidGOUZYLUZVNiRRIzU3RidGOUZYLUZVNiRRIzU4RidGOUZYLUZVNiRRIzU5RidGOUZYLUZVNiRRIzYwRidGOUZYLUZVNiRRIzYxRidGOUZYLUZVNiRRIzYyRidGOUZYLUZVNiRRIzYzRidGOUZYLUZVNiRRIzY0RidGOUZYLUZVNiRRIzY1RidGOUZYLUZVNiRRIzY2RidGOUZYLUZVNiRRIzY3RidGOUZYLUZVNiRRIzY4RidGOUZYLUZVNiRRIzY5RidGOUZYLUZVNiRRIzcwRidGOUZYLUZVNiRRIzcxRidGOUZYLUZVNiRRIzcyRidGOUZYLUZVNiRRIzczRidGOUZYLUZVNiRRIzc0RidGOUZYLUZVNiRRIzc1RidGOUZYLUZVNiRRIzc2RidGOUZYLUZVNiRRIzc3RidGOUZYLUZVNiRRIzc4RidGOUZYLUZVNiRRIzc5RidGOUZYLUZVNiRRIzgwRidGOUZYLUZVNiRRIzgxRidGOUZYLUZVNiRRIzgyRidGOUZYLUZVNiRRIzgzRidGOUZYLUZVNiRRIzg0RidGOUZYLUZVNiRRIzg1RidGOUZYLUZVNiRRIzg2RidGOUZYLUZVNiRRIzg3RidGOUZYLUZVNiRRIzg4RidGOUZYLUZVNiRRIzg5RidGOUZYLUZVNiRRIzkwRidGOUZYLUZVNiRRIzkxRidGOUZYLUZVNiRRIzkyRidGOUZYLUZVNiRRIzkzRidGOUZYLUZVNiRRIzk0RidGOUZYLUZVNiRRIzk1RidGOUZYLUZVNiRRIzk2RidGOUZYLUZVNiRRIzk3RidGOUZYLUZVNiRRIzk4RidGOUZYLUZVNiRRIzk5RidGOUZYLUZVNiRRJDEwMEYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJ0ZjYWxGZmFsRjk=">PGBxIiIiIiIjIiIkIiIlIiImIiInIiIoIiIpIiIqIiM1IiM2IiM3IiM4IiM5IiM6IiM7IiM8IiM9IiM+IiM/IiNAIiNBIiNCIiNDIiNEIiNFIiNGIiNHIiNIIiNJIiNKIiNLIiNMIiNNIiNOIiNPIiNQIiNRIiNSIiNTIiNUIiNVIiNWIiNXIiNYIiNZIiNaIiNbIiNcIiNdIiNeIiNfIiNgIiNhIiNiIiNjIiNkIiNlIiNmIiNnIiNoIiNpIiNqIiNrIiNsIiNtIiNuIiNvIiNwIiNxIiNyIiNzIiN0IiN1IiN2IiN3IiN4IiN5IiN6IiMhKSIjIikiIyMpIiMkKSIjJSkiIyYpIiMnKSIjKCkiIykpIiMqKSIjISoiIyIqIiMjKiIjJCoiIyUqIiMmKiIjJyoiIygqIiMpKiIjKioiJCsi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L209" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(comptime[i], i = indexset2)/nops(indexset2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKyspKVsmISM6</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L210" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">1.0*add(numite[i], i = indexset2)/nops(indexset2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKysrOCUhIzk=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L211" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb[i], i = indexset2)/nops(indexset2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwQDo4QDlbaCchIzs=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L208" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb2[i], i = indexset2)/nops(indexset2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwVixFdnBDUyUhIzw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L207" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Error analysis</Text-field></Title>
+<Group labelreference="L216" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">infolevel[gpgcd_real] := 2:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L217" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gpgcd_real(f[66], g[66], x, 5, 0.1e-7, 200, 0);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_real: converges at iteration 12</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_real: d1 = </Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbW5HRiQ2JFExNDUuNDExMjIwODYzMDcxN0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKCZtaW51cztGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkctRiM2Ji1GLDYkUTExNS4yOTAwOTE3MTY4NTgxRidGLy1GMzYtUTEmSW52aXNpYmxlVGltZXM7RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSYwLjBlbUYnL0ZJRlMtSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUYsNiRRIjVGJ0YvLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0YvRjItRiM2Ji1GLDYkUTE3Ny42NjMzOTg5NTIzMzYyRidGL0ZPLUZWNiVGWC1GLDYkUSI0RidGL0Zeb0YvLUYzNi1RIitGJ0YvRjZGOUY7Rj1GP0ZBRkNGRUZILUYjNiYtRiw2JFExNDIuNzc3NzkwMDAxODYzNkYnRi9GTy1GVjYlRlgtRiw2JFEiM0YnRi9GXm9GL0ZbcC1GIzYmLUYsNiRRMTY0LjMxODg5MDI0NzE2MjZGJ0YvRk8tRlY2JUZYLUYsNiRRIjJGJ0YvRl5vRi9GMi1GIzYmLUYsNiRRMTc3LjIyMDIxNzMxMjEzMjdGJ0YvRk9GWEYvRi8=">LC5dNDA0NkI0QTJFMjlGMjlCQiIiIiomXTQwMkU5NDg2RTZDOTdFMEFGJClJInhHNiIiIiZGJCEiIiomXTQwNTM2QTc1MjBFMTFGMDVGJClGKCIiJUYkRisqJl00MDQ1NjM4RTlGNkU5NDc2RiQpRigiIiRGJEYkKiZdNDA1MDE0NjhCMkEzQTRFQ0YkKUYoIiIjRiRGJComXTQwNTM0RTE4MEE1QTY3REVGJEYoRiRGKw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_real: d2 = </Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbW5HRiQ2JFExNDUuNDExMjIwODYzMDcxN0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKCZtaW51cztGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkctRiM2Ji1GLDYkUTExNS4yOTAwOTE3MTY4NTgyRidGLy1GMzYtUTEmSW52aXNpYmxlVGltZXM7RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSYwLjBlbUYnL0ZJRlMtSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUYsNiRRIjVGJ0YvLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0YvRjItRiM2Ji1GLDYkUTE3Ny42NjMzOTg5NTIzMzYzRidGL0ZPLUZWNiVGWC1GLDYkUSI0RidGL0Zeb0YvLUYzNi1RIitGJ0YvRjZGOUY7Rj1GP0ZBRkNGRUZILUYjNiYtRiw2JFExNDIuNzc3NzkwMDAxODYzNkYnRi9GTy1GVjYlRlgtRiw2JFEiM0YnRi9GXm9GL0ZbcC1GIzYmLUYsNiRRMTY0LjMxODg5MDI0NzE2MjdGJ0YvRk8tRlY2JUZYLUYsNiRRIjJGJ0YvRl5vRi9GMi1GIzYmLUYsNiRRMTc3LjIyMDIxNzMxMjEzMjdGJ0YvRk9GWEYvRi8=">LC5dNDA0NkI0QTJFMjlGMjlCOSIiIiomXTQwMkU5NDg2RTZDOTdFMThGJClJInhHNiIiIiZGJCEiIiomXTQwNTM2QTc1MjBFMTFGMEFGJClGKCIiJUYkRisqJl00MDQ1NjM4RTlGNkU5NDc3RiQpRigiIiRGJEYkKiZdNDA1MDE0NjhCMkEzQTRFRUYkKUYoIiIjRiRGJComXTQwNTM0RTE4MEE1QTY3REVGJEYoRiRGKw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">gpgcd_real: sqrt(|d1 * bnew - fnew|^2 + |d1 * anew - gnew|^2) = 0.123714916948139e-12
+gpgcd_real: sqrt(|d2 * bnew - fnew|^2 + |d2 * anew - gnew|^2) = 0.127185242460054e-12
+gpgcd_real: the selected common divisor is d1</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY0LUkjbW5HRiQ2JFEzMC4wNTQ2Mzg0MzU1MDM4Nzg2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiLEYnRi8vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JFE0MC4wMDI5ODUzNTg2MzQzMTE1MEYnRi9GMi1GIzYuLUYsNiRRMTQ1LjQxMTIyMDg2MzA3MTdGJ0YvLUYzNi1RKCZtaW51cztGJ0YvRjYvRjpGOEY8Rj5GQEZCRkQvRkdRLDAuMjIyMjIyMmVtRicvRkpGWS1GIzYmLUYsNiRRMTE1LjI5MDA5MTcxNjg1ODFGJ0YvLUYzNi1RMSZJbnZpc2libGVUaW1lcztGJ0YvRjZGV0Y8Rj5GQEZCRkRGRi9GSkZILUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR0Y7L0YwUSdpdGFsaWNGJy1GLDYkUSI1RidGLy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGL0ZULUYjNiYtRiw2JFExNzcuNjYzMzk4OTUyMzM2MkYnRi9Gam4tRl9vNiVGYW8tRiw2JFEiNEYnRi9GXHBGLy1GMzYtUSIrRidGL0Y2RldGPEY+RkBGQkZERlhGWi1GIzYmLUYsNiRRMTQyLjc3Nzc5MDAwMTg2MzZGJ0YvRmpuLUZfbzYlRmFvLUYsNiRRIjNGJ0YvRlxwRi9GaXAtRiM2Ji1GLDYkUTE2NC4zMTg4OTAyNDcxNjI2RidGL0Zqbi1GX282JUZhby1GLDYkUSIyRidGL0ZccEYvRlQtRiM2Ji1GLDYkUTE3Ny4yMjAyMTczMTIxMzI3RidGL0ZqbkZhb0YvRi9GMi1GIzY4LUYjNiYtRiw2JFExMjguNjcxOTIzMzk1MDI3M0YnRi9Gam5GYW9GL0ZULUYjNiYtRiw2JFExNDcuODQ2ODg0ODY4NTMyNUYnRi9Gam5GW3JGL0ZpcC1GIzYmLUYsNiRRMTE1LjQ0OTAzNTk2OTI5MzJGJ0YvRmpuRmFxRi9GaXAtRiM2Ji1GLDYkUTEyNS4wMzY0MjI2NDQwMTcwRidGL0ZqbkZkcEYvRlQtRiM2Ji1GLDYkUTE1NC44ODI1OTY0NDI1Mzg3RidGL0ZqbkZeb0YvRmlwLUYjNiYtRiw2JFExNDkuNzM3NTExODcyOTQ2MEYnRi9Gam4tRl9vNiVGYW8tRiw2JFEiNkYnRi9GXHBGL0ZpcC1GIzYmLUYsNiRRMTMxLjM0MDkyMzE4MjkyMzFGJ0YvRmpuLUZfbzYlRmFvLUYsNiRRIjdGJ0YvRlxwRi9GVC1GIzYmLUYsNiRRMTE4LjU2ODkzMDUxMDA5MjZGJ0YvRmpuLUZfbzYlRmFvLUYsNiRRIjhGJ0YvRlxwRi9GaXAtRiM2Ji1GLDYkUTExLjMwNDUzMTIyMTU1Nzk3RidGL0Zqbi1GX282JUZhby1GLDYkUSI5RidGL0ZccEYvRmlwLUYjNiYtRiw2JFExMS4wMDAzODQxMjI4OTM1OUYnRi9Gam4tRl9vNiVGYW8tRiw2JFEjMTBGJ0YvRlxwRi9GVC1GLDYkUTExNi4wMDg4NTA3MjE4Mjk2RidGL0YvRjItRiM2OS1GMzYtUSomdW1pbnVzMDtGJ0YvRjZGV0Y8Rj5GQEZCRkRGWEZaLUYjNiYtRiw2JFExNDkuODM1MjA5NTY5MjQwMEYnRi9Gam5GYW9GL0ZpcC1GIzYmLUYsNiRRMTU3LjU5NDkwODE0ODEzODNGJ0YvRmpuRltyRi9GVC1GIzYmLUYsNiRRMTguNjU5MDUyNjQwOTY1NzFGJ0YvRmpuRmFxRi9GVC1GIzYmLUYsNiRRMTcxLjAwNTQyMjMxMDA1MDlGJ0YvRmpuRmRwRi9GaXAtRiM2Ji1GLDYkUTE1Ni43NTkxOTY2ODc2MDc4RidGL0ZqbkZeb0YvRlQtRiM2Ji1GLDYkUTE5LjgyMDg2OTA2Nzg4NjI0RidGL0ZqbkZldEYvRlQtRiM2Ji1GLDYkUTEyMi41ODYzMTc5ODYwODUyRidGL0ZqbkZfdUYvRmlwLUYjNiYtRiw2JFExMjcuNTgyOTA5Mzg2Nzg3NUYnRi9Gam5GaXVGL0ZpcC1GIzYmLUYsNiRRMTExLjEwODg2NDYwMDczMTlGJ0YvRmpuRmN2Ri9GaXAtRiM2Ji1GLDYkUTIwLjk5NDg5NjgzNzQwNDk3MkYnRi9Gam5GXXdGL0ZpcC1GLDYkUTExNy4zNDAxNDQxMDEzNjg2RidGL0YvRjItRiM2Li1GLDYkUTIwLjM4MTg0NzEyNDM4NDgzNkYnRi9GVC1GIzYmLUYsNiRRMzAuMDY1MDY4MDc1MTg0MTQzM0YnRi9Gam5GXm9GL0ZULUYjNiYtRiw2JFEyMC4zOTYwMzc5NTkxNDI0MzdGJ0YvRmpuRmRwRi9GaXAtRiM2Ji1GLDYkUTMwLjAyNTU5MDE3ODYzMDI4NjhGJ0YvRmpuRmFxRi9GVC1GIzYmLUYsNiRRMzAuMDM0NTIxNTI2MTc3ODQ3MUYnRi9Gam5GW3JGL0ZULUYjNiYtRiw2JFEyMC40NDgxMDI3MjEyNTQ0NjZGJ0YvRmpuRmFvRi9GL0YyLUYjNi9GZ3ctRiw2JFEyMC4zNTI1MzA3MjczNzQ2NTBGJ0YvRlQtRiM2Ji1GLDYkUTMwLjA2NTQyNjk1MzcwNDMxNDFGJ0YvRmpuRl5vRi9GaXAtRiM2Ji1GLDYkUTIwLjI0NzAwNjI2MTA1ODA3OEYnRi9Gam5GZHBGL0ZULUYjNiYtRiw2JFEyMC4yMjMyMzE4NzAzNzgzNDFGJ0YvRmpuRmFxRi9GVC1GIzYmLUYsNiRRMjAuNTAwMDQ4MzA2MjAxNDU2RidGL0ZqbkZbckYvRmlwLUYjNiYtRiw2JFEzMC4wMzE5MTc3NTA1MTE5OTU3RidGL0ZqbkZhb0YvRi9GMi1GLDYkUSMxMkYnRi8vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjhGLw==">NiokIjAneVFdTiVRWSYhIzskIjBdNlZqZWApSCEjPCwuXTQwNDZCNEEyRTI5RjI5QkIiIiIqJl00MDJFOTQ4NkU2Qzk3RTBBRispSSJ4RzYiIiImRishIiIqJl00MDUzNkE3NTIwRTExRjA1RispRi8iIiVGK0YyKiZdNDA0NTYzOEU5RjZFOTQ3NkYrKUYvIiIkRitGKyomXTQwNTAxNDY4QjJBM0E0RUNGKylGLyIiI0YrRisqJl00MDUzNEUxODBBNUE2N0RFRitGL0YrRjIsOComXTQwM0NBQzAzMkJFRjBGNEFGK0YvRitGKyomXTQwNDdFQzY2QjkyRUU5ODZGK0Y9RitGMiomXTQwMkVFNUU4MEFFNUFGMTlGK0Y5RitGKyomXTQwMzkwOTUyRkU5MEUzMDhGK0Y1RitGKyomXTQwNEI3MEY4RUI5NDIyODFGK0YuRitGMiomXTQwNDhERTY2QzlGRjVCN0VGKylGLyIiJ0YrRisqJl00MDNGNTc0NkJERTExQTVDRispRi8iIihGK0YrKiZdNDAzMjkxQTU2RTBFOEI0RUYrKUYvIiIpRitGMiomXTNGRjRERjVDMjE1MzNEMDBGKylGLyIiKkYrRisqJl0zRkYwMDE5MkM4MzQ0MDAzRispRi8iIzVGK0YrXTQwMzAwMjQ0MEE3OENERDFGMiw4KiZdNDA0OEVBRTgyNUFDOTg5NkYrRi9GK0YyKiZdNDA0Q0NDMjVGMzQwMzA1REYrRj1GK0YrKiZdNDAyMTUxNkY1OTA2OTQ5MEYrRjlGK0YyKiZdNDA1MUMwNThENkQxMTU5QkYrRjVGK0YyKiZdNDA0QzYxMkQ1QjY4NDBFQUYrRi5GK0YrKiZdNDAyM0E0NDhGMzUxQkQyNEYrRk5GK0YyKiZdNDAzNjk2MThFRjdGNEFEOEYrRlJGK0YyKiZdNDAzQjk1Mzk4Q0IwQzhBQUYrRlZGK0YrKiZdNDAyNjM3QkQxOUQ3QUJEQUYrRlpGK0YrKiZdM0ZFRkQ2MzFFNDcxOEFCN0YrRmhuRitGK100MDMxNTcxM0FGMEY0RTMxRissLl0zRkQ4NzAyRUVCRDM3RDI1RisqJl0zRkIwQTg0RDI2RURGN0YzRitGLkYrRjIqJl0zRkQ5NThBRjk4OUY3MjU0RitGNUYrRjIqJl0zRjlBMzQ0RkQxNDM3NUY3RitGOUYrRisqJl0zRkExQUNDRTMzRTIzQjlDRitGPUYrRjIqJl0zRkRDQURCNzA5NDI1NjlFRitGL0YrRjIsLl0zRkQ2OEZERDBBM0EzMDkwRjIqJl0zRkIwQkZEMjIyNkZEQUY5RitGLkYrRjIqJl0zRkNGOURFNkIyOTM2QTRFRitGNUYrRisqJl0zRkNDOTJEQ0E3NTk5NUUzRitGOUYrRjIqJl0zRkUwMDA2NTRFMzFDNjM5RitGPUYrRjIqJl0zRkEwNTc4NUZEMzhDOTA3RitGL0YrRisiIzc=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L214" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SingularValues(subresmat(f[66],g[66],x,5))[10];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFExMi44NTgxNTIzMzUxMTU3N0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">XTQwMDZERDdFRjhCMjc3NUQ=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">STLN</Text-field></Title>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Setup</Text-field></Title>
+<Group labelreference="L238" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../stln/subroutine.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L240" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../stln/con_mulpoly_gcd_2.0-02.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L239" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">infolevel[C_con_mulpoly] := 1:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L237" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../testscript-stln.mpl&quot;:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Benchmark</Text-field></Title>
+<Group labelreference="L245" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">comptime, perturb, perturb2, pols, numite := test_stln_complex (f, g, x, 20, 8, 200, 1, 100):</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Degree of common divisor: 20
+Case 1:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 2:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 3:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 4:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 8</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 5:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 6:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 7:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 8:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 9:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 10:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 11:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 12:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 13:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 14:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 15:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 16:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 17:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 18:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 19:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 20:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 21:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 22:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 23:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 3
+Case 24:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 25:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 26:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 27:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 28:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 29:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 30:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5
+Case 31:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 32:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 33:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 34:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 35:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 36:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 37:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5
+Case 38:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 6
+Case 39:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 40:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 41:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 42:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 43:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 44:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 45:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 46:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 47:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 48:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 49:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 50:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 51:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 52:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 53:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 54:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 3
+Case 55:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 56:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 57:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 58:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 59:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 60:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 61:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 62:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 63:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 64:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 65:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 66:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 67:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 68:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 69:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 70:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 71:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 72:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5
+Case 73:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 74:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 75:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 76:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 77:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5
+Case 78:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 79:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 80:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 81:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 82:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 83:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 84:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 85:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 86:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 87:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 88:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 89:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 90:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 91:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 7
+Case 92:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 93:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 94:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 95:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 5
+Case 96:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 97:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 98:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4
+Case 99:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 100:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">C_con_mulpoly: the number of the iterations: 4</Text-field>
+</Output>
+</Group>
+<Group labelreference="L244" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">save comptime, perturb, perturb2, pols, numite, &quot;./testdata-complex-40-40-20-0.1-02-stln.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L243" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;./testdata-complex-40-40-20-0.1-02-stln.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L246" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">indexset := {$op(2, perturb)}; # indexset consists of indices of all test cases</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpaW5kZXhzZXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNmZ3LUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GVTYkUSIyRidGOUZYLUZVNiRRIjNGJ0Y5RlgtRlU2JFEiNEYnRjlGWC1GVTYkUSI1RidGOUZYLUZVNiRRIjZGJ0Y5RlgtRlU2JFEiN0YnRjlGWC1GVTYkUSI4RidGOUZYLUZVNiRRIjlGJ0Y5RlgtRlU2JFEjMTBGJ0Y5RlgtRlU2JFEjMTFGJ0Y5RlgtRlU2JFEjMTJGJ0Y5RlgtRlU2JFEjMTNGJ0Y5RlgtRlU2JFEjMTRGJ0Y5RlgtRlU2JFEjMTVGJ0Y5RlgtRlU2JFEjMTZGJ0Y5RlgtRlU2JFEjMTdGJ0Y5RlgtRlU2JFEjMThGJ0Y5RlgtRlU2JFEjMTlGJ0Y5RlgtRlU2JFEjMjBGJ0Y5RlgtRlU2JFEjMjFGJ0Y5RlgtRlU2JFEjMjJGJ0Y5RlgtRlU2JFEjMjNGJ0Y5RlgtRlU2JFEjMjRGJ0Y5RlgtRlU2JFEjMjVGJ0Y5RlgtRlU2JFEjMjZGJ0Y5RlgtRlU2JFEjMjdGJ0Y5RlgtRlU2JFEjMjhGJ0Y5RlgtRlU2JFEjMjlGJ0Y5RlgtRlU2JFEjMzBGJ0Y5RlgtRlU2JFEjMzFGJ0Y5RlgtRlU2JFEjMzJGJ0Y5RlgtRlU2JFEjMzNGJ0Y5RlgtRlU2JFEjMzRGJ0Y5RlgtRlU2JFEjMzVGJ0Y5RlgtRlU2JFEjMzZGJ0Y5RlgtRlU2JFEjMzdGJ0Y5RlgtRlU2JFEjMzhGJ0Y5RlgtRlU2JFEjMzlGJ0Y5RlgtRlU2JFEjNDBGJ0Y5RlgtRlU2JFEjNDFGJ0Y5RlgtRlU2JFEjNDJGJ0Y5RlgtRlU2JFEjNDNGJ0Y5RlgtRlU2JFEjNDRGJ0Y5RlgtRlU2JFEjNDVGJ0Y5RlgtRlU2JFEjNDZGJ0Y5RlgtRlU2JFEjNDdGJ0Y5RlgtRlU2JFEjNDhGJ0Y5RlgtRlU2JFEjNDlGJ0Y5RlgtRlU2JFEjNTBGJ0Y5RlgtRlU2JFEjNTFGJ0Y5RlgtRlU2JFEjNTJGJ0Y5RlgtRlU2JFEjNTNGJ0Y5RlgtRlU2JFEjNTRGJ0Y5RlgtRlU2JFEjNTVGJ0Y5RlgtRlU2JFEjNTZGJ0Y5RlgtRlU2JFEjNTdGJ0Y5RlgtRlU2JFEjNThGJ0Y5RlgtRlU2JFEjNTlGJ0Y5RlgtRlU2JFEjNjBGJ0Y5RlgtRlU2JFEjNjFGJ0Y5RlgtRlU2JFEjNjJGJ0Y5RlgtRlU2JFEjNjNGJ0Y5RlgtRlU2JFEjNjRGJ0Y5RlgtRlU2JFEjNjVGJ0Y5RlgtRlU2JFEjNjZGJ0Y5RlgtRlU2JFEjNjdGJ0Y5RlgtRlU2JFEjNjhGJ0Y5RlgtRlU2JFEjNjlGJ0Y5RlgtRlU2JFEjNzBGJ0Y5RlgtRlU2JFEjNzFGJ0Y5RlgtRlU2JFEjNzJGJ0Y5RlgtRlU2JFEjNzNGJ0Y5RlgtRlU2JFEjNzRGJ0Y5RlgtRlU2JFEjNzVGJ0Y5RlgtRlU2JFEjNzZGJ0Y5RlgtRlU2JFEjNzdGJ0Y5RlgtRlU2JFEjNzhGJ0Y5RlgtRlU2JFEjNzlGJ0Y5RlgtRlU2JFEjODBGJ0Y5RlgtRlU2JFEjODFGJ0Y5RlgtRlU2JFEjODJGJ0Y5RlgtRlU2JFEjODNGJ0Y5RlgtRlU2JFEjODRGJ0Y5RlgtRlU2JFEjODVGJ0Y5RlgtRlU2JFEjODZGJ0Y5RlgtRlU2JFEjODdGJ0Y5RlgtRlU2JFEjODhGJ0Y5RlgtRlU2JFEjODlGJ0Y5RlgtRlU2JFEjOTBGJ0Y5RlgtRlU2JFEjOTFGJ0Y5RlgtRlU2JFEjOTJGJ0Y5RlgtRlU2JFEjOTNGJ0Y5RlgtRlU2JFEjOTRGJ0Y5RlgtRlU2JFEjOTVGJ0Y5RlgtRlU2JFEjOTZGJ0Y5RlgtRlU2JFEjOTdGJ0Y5RlgtRlU2JFEjOThGJ0Y5RlgtRlU2JFEjOTlGJ0Y5RlgtRlU2JFEkMTAwRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjkvJSVvcGVuR1EifGZyRicvJSZjbG9zZUdRInxockYnRmNhbEZmYWxGOQ==">PGBxIiIiIiIjIiIkIiIlIiImIiInIiIoIiIpIiIqIiM1IiM2IiM3IiM4IiM5IiM6IiM7IiM8IiM9IiM+IiM/IiNAIiNBIiNCIiNDIiNEIiNFIiNGIiNHIiNIIiNJIiNKIiNLIiNMIiNNIiNOIiNPIiNQIiNRIiNSIiNTIiNUIiNVIiNWIiNXIiNYIiNZIiNaIiNbIiNcIiNdIiNeIiNfIiNgIiNhIiNiIiNjIiNkIiNlIiNmIiNnIiNoIiNpIiNqIiNrIiNsIiNtIiNuIiNvIiNwIiNxIiNyIiNzIiN0IiN1IiN2IiN3IiN4IiN5IiN6IiMhKSIjIikiIyMpIiMkKSIjJSkiIyYpIiMnKSIjKCkiIykpIiMqKSIjISoiIyIqIiMjKiIjJCoiIyUqIiMmKiIjJyoiIygqIiMpKiIjKioiJCsi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L248" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(comptime[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrK2x0OiMhIzg=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L274" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Statistics:-Variance(comptime);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFExNy44Mjc0MDA5MzY4Njg2OUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">XTQwMUY0RjQyMzBGMjFGODM=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L247" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">1.0*add(numite[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKysrOiUhIzk=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L250" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwJmZceTghW2gnISM7</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L249" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb2[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwIlJ3NkhYLVchIzw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L242" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">arrayLargeElementIndex (numite, 50);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">PCI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L241" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">uvGCD</Text-field></Title>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Setup</Text-field></Title>
+<Group labelreference="L256" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">libname := &quot;../ApaTools&quot;,libname:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L259" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(ApaTools):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L258" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;../testscript-uvgcd.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L257" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Benchmark</Text-field></Title>
+<Group labelreference="L261" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">comptime, perturb, perturb2, gcds, pols, degs, thetas := test_uvgcd (f, g, x, 20, 1e-2, 1, 100):</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Initial torrelance: 0.010000</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 1:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 2:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 3:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 4:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 5:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 6:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 7:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 8:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 9:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 10:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 11:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 12:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 13:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 14:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 15:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 16:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 17:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 18:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 19:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 20:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 21:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 22:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 23:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 24:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 25:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 26:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 27:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 28:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 29:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 30:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 31:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 32:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 33:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 34:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 35:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 36:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 37:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 38:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 39:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 40:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 41:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 42:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 43:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 44:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 45:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 46:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 47:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 48:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 49:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 50:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 51:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 52:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 53:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 54:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 55:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 56:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 57:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 58:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 59:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 60:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 61:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 62:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 63:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 64:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 65:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 66:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 67:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 68:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 69:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 70:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 71:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 72:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 73:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 74:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 75:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 76:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 77:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 78:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 79:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 80:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 81:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 82:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 83:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 84:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 85:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 86:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 87:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 88:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 89:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 90:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 91:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 92:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 93:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 94:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 95:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 96:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 97:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 98:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20
+Case 99:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Case 100:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">theta = 0.010000, Degree of GCD = 20</Text-field>
+</Output>
+</Group>
+<Group labelreference="L262" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">save comptime, perturb, perturb2, gcds, pols, degs, thetas, &quot;./testdata-complex-40-40-20-0.1-02-uvgcd.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L263" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">read &quot;./testdata-complex-40-40-20-0.1-02-uvgcd.mpl&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L264" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">indexset := {$op(2, perturb)}; # indexset consists of indices of all test cases</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpaW5kZXhzZXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNmZ3LUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GVTYkUSIyRidGOUZYLUZVNiRRIjNGJ0Y5RlgtRlU2JFEiNEYnRjlGWC1GVTYkUSI1RidGOUZYLUZVNiRRIjZGJ0Y5RlgtRlU2JFEiN0YnRjlGWC1GVTYkUSI4RidGOUZYLUZVNiRRIjlGJ0Y5RlgtRlU2JFEjMTBGJ0Y5RlgtRlU2JFEjMTFGJ0Y5RlgtRlU2JFEjMTJGJ0Y5RlgtRlU2JFEjMTNGJ0Y5RlgtRlU2JFEjMTRGJ0Y5RlgtRlU2JFEjMTVGJ0Y5RlgtRlU2JFEjMTZGJ0Y5RlgtRlU2JFEjMTdGJ0Y5RlgtRlU2JFEjMThGJ0Y5RlgtRlU2JFEjMTlGJ0Y5RlgtRlU2JFEjMjBGJ0Y5RlgtRlU2JFEjMjFGJ0Y5RlgtRlU2JFEjMjJGJ0Y5RlgtRlU2JFEjMjNGJ0Y5RlgtRlU2JFEjMjRGJ0Y5RlgtRlU2JFEjMjVGJ0Y5RlgtRlU2JFEjMjZGJ0Y5RlgtRlU2JFEjMjdGJ0Y5RlgtRlU2JFEjMjhGJ0Y5RlgtRlU2JFEjMjlGJ0Y5RlgtRlU2JFEjMzBGJ0Y5RlgtRlU2JFEjMzFGJ0Y5RlgtRlU2JFEjMzJGJ0Y5RlgtRlU2JFEjMzNGJ0Y5RlgtRlU2JFEjMzRGJ0Y5RlgtRlU2JFEjMzVGJ0Y5RlgtRlU2JFEjMzZGJ0Y5RlgtRlU2JFEjMzdGJ0Y5RlgtRlU2JFEjMzhGJ0Y5RlgtRlU2JFEjMzlGJ0Y5RlgtRlU2JFEjNDBGJ0Y5RlgtRlU2JFEjNDFGJ0Y5RlgtRlU2JFEjNDJGJ0Y5RlgtRlU2JFEjNDNGJ0Y5RlgtRlU2JFEjNDRGJ0Y5RlgtRlU2JFEjNDVGJ0Y5RlgtRlU2JFEjNDZGJ0Y5RlgtRlU2JFEjNDdGJ0Y5RlgtRlU2JFEjNDhGJ0Y5RlgtRlU2JFEjNDlGJ0Y5RlgtRlU2JFEjNTBGJ0Y5RlgtRlU2JFEjNTFGJ0Y5RlgtRlU2JFEjNTJGJ0Y5RlgtRlU2JFEjNTNGJ0Y5RlgtRlU2JFEjNTRGJ0Y5RlgtRlU2JFEjNTVGJ0Y5RlgtRlU2JFEjNTZGJ0Y5RlgtRlU2JFEjNTdGJ0Y5RlgtRlU2JFEjNThGJ0Y5RlgtRlU2JFEjNTlGJ0Y5RlgtRlU2JFEjNjBGJ0Y5RlgtRlU2JFEjNjFGJ0Y5RlgtRlU2JFEjNjJGJ0Y5RlgtRlU2JFEjNjNGJ0Y5RlgtRlU2JFEjNjRGJ0Y5RlgtRlU2JFEjNjVGJ0Y5RlgtRlU2JFEjNjZGJ0Y5RlgtRlU2JFEjNjdGJ0Y5RlgtRlU2JFEjNjhGJ0Y5RlgtRlU2JFEjNjlGJ0Y5RlgtRlU2JFEjNzBGJ0Y5RlgtRlU2JFEjNzFGJ0Y5RlgtRlU2JFEjNzJGJ0Y5RlgtRlU2JFEjNzNGJ0Y5RlgtRlU2JFEjNzRGJ0Y5RlgtRlU2JFEjNzVGJ0Y5RlgtRlU2JFEjNzZGJ0Y5RlgtRlU2JFEjNzdGJ0Y5RlgtRlU2JFEjNzhGJ0Y5RlgtRlU2JFEjNzlGJ0Y5RlgtRlU2JFEjODBGJ0Y5RlgtRlU2JFEjODFGJ0Y5RlgtRlU2JFEjODJGJ0Y5RlgtRlU2JFEjODNGJ0Y5RlgtRlU2JFEjODRGJ0Y5RlgtRlU2JFEjODVGJ0Y5RlgtRlU2JFEjODZGJ0Y5RlgtRlU2JFEjODdGJ0Y5RlgtRlU2JFEjODhGJ0Y5RlgtRlU2JFEjODlGJ0Y5RlgtRlU2JFEjOTBGJ0Y5RlgtRlU2JFEjOTFGJ0Y5RlgtRlU2JFEjOTJGJ0Y5RlgtRlU2JFEjOTNGJ0Y5RlgtRlU2JFEjOTRGJ0Y5RlgtRlU2JFEjOTVGJ0Y5RlgtRlU2JFEjOTZGJ0Y5RlgtRlU2JFEjOTdGJ0Y5RlgtRlU2JFEjOThGJ0Y5RlgtRlU2JFEjOTlGJ0Y5RlgtRlU2JFEkMTAwRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjkvJSVvcGVuR1EifGZyRicvJSZjbG9zZUdRInxockYnRmNhbEZmYWxGOQ==">PGBxIiIiIiIjIiIkIiIlIiImIiInIiIoIiIpIiIqIiM1IiM2IiM3IiM4IiM5IiM6IiM7IiM8IiM9IiM+IiM/IiNAIiNBIiNCIiNDIiNEIiNFIiNGIiNHIiNIIiNJIiNKIiNLIiNMIiNNIiNOIiNPIiNQIiNRIiNSIiNTIiNUIiNVIiNWIiNXIiNYIiNZIiNaIiNbIiNcIiNdIiNeIiNfIiNgIiNhIiNiIiNjIiNkIiNlIiNmIiNnIiNoIiNpIiNqIiNrIiNsIiNtIiNuIiNvIiNwIiNxIiNyIiNzIiN0IiN1IiN2IiN3IiN4IiN5IiN6IiMhKSIjIikiIyMpIiMkKSIjJSkiIyYpIiMnKSIjKCkiIykpIiMqKSIjISoiIyIqIiMjKiIjJCoiIyUqIiMmKiIjJyoiIygqIiMpKiIjKioiJCsi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L267" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(comptime[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrK0k0XiQhIzk=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L268" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(thetas[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwKysrKysrKyIhIzs=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L269" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwU2IkR0kzVTghIzo=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L266" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">add(perturb2[i], i = indexset)/nops(indexset);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIwLUx6VGF1IT4hIzs=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L270" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">arrayLargeElementIndex (degs, 20);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">PCI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L271" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Statistics:-Variance(comptime);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFExMS4xOTU2MDQ1MzA0MDQwNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">XTNGRjMyMTMyMzc1MDhFODE=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L272" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+</Worksheet>
