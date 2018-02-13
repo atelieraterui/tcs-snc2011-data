@@ -1,4 +1,4 @@
-# Dataset for GPGCD Algorithm
+# Dataset for the GPGCD Algorithm
 
 Dataset of test data for paper:
 
