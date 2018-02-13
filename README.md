@@ -1,4 +1,4 @@
-# tcs-snc2011-data
+# Dataset for GPGCD Algorithm
 
 Dataset of test data for paper:
 
